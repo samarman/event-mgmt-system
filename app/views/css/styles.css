@@ -1,0 +1,82 @@
+/* styles.css */
+/* main styles for the landing page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* navbar.css */
+/* styles for the navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* avatars.css */
+/* styles for the avatars section */
+
+.avatars {
+  flex-basis: 25%;
+  margin-right: 20px;
+}
+
+/* latest-news.css */
+/* styles for the latest news section */
+
+.latest-news {
+  flex-basis: 25%;
+  margin-right: 20px;
+}
+
+/* event-selection.css */
+/* styles for the event selection section */
+
+.event-selection {
+  flex-basis: 40%;
+  margin-right: 20px;
+}
+
+/* login.css */
+/* styles for the login section */
+
+.login {
+  flex-basis: 10%;
+}
